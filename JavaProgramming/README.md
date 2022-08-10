@@ -83,3 +83,37 @@ Hello Java이라는 문장을 화면에 출력함
 / : 앞에 있는 항에서 뒤에 있는 항을 나누어 몫을 구함
 % : 앞에 있는 항에서 뒤에 있는 항을 나누어 나머지를 구함
 ```
+
+>### [증가, 감소 연산자](https://github.com/jong-seoung/javaProgramming/blob/main/JavaProgramming/src/chapter3/OperationEx2.java)
+```
+++ : 항의 값에 1을 더함
+    예시) num1 = ++num;  num값이 1이 증가한후 num1에 대입
+    num1 = num++;  num값을 num1에 대입한후 1만큼 증가
+-- : 항의 값에 1을 뺌
+    예시) num1 = --num;  num값이 1이 감소 한후 num1에 대입
+    num1 = num--;  num값을 num1에 대입한후 1만큼 감소
+```
+
+>### [논리 연산자](https://github.com/jong-seoung/javaProgramming/blob/main/JavaProgramming/src/chapter3/OperationEx3.java)
+
+```
+&& : 두 항이 모두 참인 경우에만 결과 값이 참, 그렇지 않으면 거짓
+|| : 두 항 중 하나의 항만 참이면 결과 값은 참, 두항이 모두 거짓이면 결과 값은 거짓
+!  : 단항 연산자. 참인 경우는 거짓으로 바구고 거짓인 경우는 참으로 바꿈
+```
+>### [조건 연산자](https://github.com/jong-seoung/javaProgramming/blob/main/JavaProgramming/src/chapter3/OperationEx4.java)
+
+조건 연산자를 이용하여 비교하기
+- 조건식 ? 결과1 : 결과2 → 조건식이 참이면 결과1을 거짓이면 결과2가 선택됨
+
+<br>
+<br>
+
+## **chapter 4**
+<br>
+
+>### [if else문](https://github.com/jong-seoung/javaProgramming/blob/main/JavaProgramming/src/chapter4/IfExample.java)
+if else문 순서
+1. int age=7;
+2. age >= 8　　--(거짓)-->　학교에 다니지 않습니다.(종료)
+<br>　　　　　　---(참)-->	 학교에 다닙니다. (종료)
